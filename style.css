@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #EF6D00;
+    height: 80px;
+    position: sticky;
+    border-radius: 15px 15px 0 0;
+  }
+
+#left {
+    position: relative;
+    width: 48%;
+}    
+#right {
+    position: absolute;
+    margin: 20px 0;
+    left:40%;
+    padding-bottom: 50px;
+    height: 135px;
+   // overflow-y: scroll;
+ }
+#userList {
+    cursor: pointer;
+  //  border-bottom: 1px solid #e4bb97;
+}
+footer {
+    background-color: #EF6D00;;
+    border-radius: 0 0 15px 15px;
+    height: 6em;
+    position: sticky;
+    clear: both;
+}
